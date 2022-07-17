@@ -9,7 +9,7 @@ int main()
   int min =(a<b)?a:b;
   
   while(true){
-    r= max/min;
+    r= max%min;
     if(r==0){
      hcf=min;
       break;
