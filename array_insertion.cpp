@@ -3,11 +3,21 @@
 using namespace std;
 
 
-insertion (int* a, int n, int p){
+void insertion (int* a, int n, int p){
   for(int i=n-1;i>=0;i--){
     a[i+1]=a[i];
   }
   a[0]=p;
+}
+
+void insertion_last(int* a, int n, int p, int pos){
+  a[n]=p;
+}
+void insertion_pos(int* a, int n, int p){
+    for(int i=n-1;i>=pos;i--){
+        a[i+1]=arr[i];
+    }
+    a[pos-1]=p;
 }
 
 int main(){
@@ -21,10 +31,10 @@ int main(){
     cin>>arr[i];
   }
   
-  insertion(arr,n,value);
+  insertion_last(arr,n,value);
   
-  for(int i=0;i<n+1;i++){
+  for(int j=0;j<=n;j++){
     
-    cout<<arr[i]<<" ";
+    cout<<arr[j]<<" ";
   }
 }
