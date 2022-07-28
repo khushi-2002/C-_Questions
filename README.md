@@ -31,4 +31,5 @@ Question Links:
 2. <a href="https://github.com/khushi-2002/Cpp-Questions/blob/main/sum_of_digits.cpp">Sum of Digits</a>
 2. <a href="https://github.com/khushi-2002/Cpp-Questions/blob/main/swap.cpp">Swap of two numbers</a>
 2. <a href="https://github.com/khushi-2002/Cpp-Questions/blob/main/vowel-checker.cpp">Vowel Checker</a>
+<a href="https://github.com/khushi-2002/Cpp-Questions/blob/main/sum_of_naturalNo.cpp">Sum of natural numbers</a>
 
